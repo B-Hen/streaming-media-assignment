@@ -1,0 +1,31 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Media HW",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Tests complete\"",
+    "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment.git"
+  },
+  "keywords": [
+    "Strewaming",
+    "Media",
+    "HW"
+  ],
+  "author": "Breanna Henriquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
